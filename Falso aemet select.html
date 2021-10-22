@@ -1,0 +1,38 @@
+
+ <!DOCTYPE html>
+<html>
+ <head>
+   <title>FALSO AEMET select</title>
+ </head>
+<body>
+   <form method="GET" action="http://www.aemet.es/es/buscador">
+
+
+    <label for="municipios"><b>Seleccione un municipio</b></label><br>
+      <select name="str" id="municipios" required>
+       <option selected disabled value="">Seleccione una opcion </option>
+       <option value="Mostoles"> Mostoles</option>
+       <option value="Alcorcon">Alcorcon</option>
+       <option value="Fuenlabrada">Fuenlabrada</option>
+    
+      </select>
+
+   <input type="submit" value="Buscar"><br><br><br>
+
+</form>
+<form method="GET" action="http://www.google.es/search">
+    <b>¿Que quieres buscar?</b><br>
+     <input type="text" name="q"> <input type="submit" name="buscador"><br>
+     
+     <label for="buscador">Idioma</label>
+    <select name="hl" id="buscador" required>
+        <option value="Es_es">Español</option>
+        <option value="zp">Chino</option>
+        <option value="En">Ingles</option>
+    
+    </select>
+
+</form>
+
+</body>
+</html> 
